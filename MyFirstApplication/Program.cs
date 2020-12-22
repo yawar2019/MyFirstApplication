@@ -8,8 +8,20 @@ namespace MyFirstApplication
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
+            Program obj = new Program();
+
+            int a = obj.Add();
+            Console.WriteLine(a);
+
+            Console.ReadLine();
+        }
+
+         public int Add()
+        {
+            int a = 10, b = 20;
+            return a + b;
         }
     }
 }
