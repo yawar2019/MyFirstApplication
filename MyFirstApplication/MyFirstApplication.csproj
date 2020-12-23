@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyFirstApplication.Employee</StartupObject>
+    <StartupObject>MyFirstApplication.InputProgram</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Demo2.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="InputProgram.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
