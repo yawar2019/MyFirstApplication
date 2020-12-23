@@ -8,5 +8,9 @@ namespace MyFirstApplication
 {
     class Demo2
     {
+        public static void Main() {
+
+           
+        }
     }
 }
