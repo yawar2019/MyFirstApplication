@@ -21,28 +21,36 @@ namespace MyFirstApplication
             //Console.WriteLine(c);
 
 
-            Console.WriteLine("Enter CustomerId");
-            int CustomerId = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Enter CustomerName");
-            string CustomerName = Console.ReadLine();
-
-
-            Console.WriteLine("Enter Price");
-            float price = Convert.ToSingle(Console.ReadLine());
-
-            Console.WriteLine("you Are You Working?");
-            bool IsWorking = Convert.ToBoolean(Console.ReadLine());
 
             Console.WriteLine("Customer Gender");
             char Gender = Convert.ToChar(Console.ReadLine());
+            if (char.ToLower(Gender)=='m')//  if (Gender == 'M'|| Gender == 'm')
+            {
+
+                Console.WriteLine("Enter CustomerId");
+                int CustomerId = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Enter CustomerName");
+                string CustomerName = Console.ReadLine();
 
 
-            Console.WriteLine("----Welcome To Fameeda Shopiing Mall------");
+                Console.WriteLine("Enter Price");
+                float price = Convert.ToSingle(Console.ReadLine());
 
-            Console.WriteLine("Customer Id:" + CustomerId + "\t" + " Customer Name:" + CustomerName + "\t" + " Price:" + price);
-            Console.WriteLine("Working Status:" + IsWorking + "\t" + " Gender:" + Gender);
+                Console.WriteLine("you Are You Working?");
+                bool IsWorking = Convert.ToBoolean(Console.ReadLine());
 
+
+
+                Console.WriteLine("----Welcome To Fameeda Shopiing Mall------");
+
+                Console.WriteLine("Customer Id:" + CustomerId + "\t" + " Customer Name:" + CustomerName + "\t" + " Price:" + price);
+                Console.WriteLine("Working Status:" + IsWorking + "\t" + " Gender:" + Gender);
+            }
+            else {
+
+                Console.WriteLine("Sorry this Service Not Availble Right Now");
+            }
             Console.ReadLine();
         }
     }
