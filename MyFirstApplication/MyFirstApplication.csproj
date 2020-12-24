@@ -58,6 +58,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Video\23Dec2020_TakingInputAndGitHubSetup.mp4" />
+    <Content Include="Video\24Dec20_ConditionalConstruct.mp4" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
