@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyFirstApplication.HotelExample</StartupObject>
+    <StartupObject>MyFirstApplication.LoopingExample</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,7 @@
     <Compile Include="Demo2.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="InputProgram.cs" />
+    <Compile Include="LoopingExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
