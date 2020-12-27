@@ -13,7 +13,8 @@ namespace MyFirstApplication
             // obj. Print5TimesName();
             //obj.PrintSumOfNumbers();
             //obj.PrintReverseNumber();
-            obj.PrintYourTable();
+            //obj.PrintYourTable();
+            obj.Printtables();
             Console.ReadLine();
         }
 
@@ -58,5 +59,19 @@ namespace MyFirstApplication
 
             }
         }
+
+        void Printtables() {
+
+            Console.WriteLine("Please Enter Table you want to Learn");
+            int n = Convert.ToInt32(Console.ReadLine());
+            for (int j = 1; j <= n; j++)
+            {
+                for (int i = 1; i <= 10; i++)
+                {
+                    Console.Write("{0}x{1}={2}\t", i, j, j * i);
+                }
+                Console.WriteLine("\t");
+            }
+        } 
     }
 }
